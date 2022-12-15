@@ -16,4 +16,26 @@ If a value of the argument is not 1 or 2, return "Illegal argument".
 */
 // TODO add your code here
 
+function getScore(arr) {
+  if (arr === null) return "Illegal argument";
+  if (arr.length === 0) return "0-0 : draw";
+
+  let teamOneScore = 0;
+  let teamTwoScore = 0;
+
+  for (let num of arr) {
+    if ((num !== 1 && num !== 2) || typeof num !== "number")
+      return "Illegal argument";
+
+    num === 1 ? teamOneScore++ : teamTwoScore++;
+  }
+
+  if (teamOneScore === teamTwoScore)
+    return `${teamOneScore}-${teamTwoScore} : draw`;
+
+  const winner = teamOneScore > teamTwoScore ? 1 : 2;
+
+  return `${teamOneScore}-${teamTwoScore} : team ${winner} wins the game`;
+}
+
 module.exports = getScore;

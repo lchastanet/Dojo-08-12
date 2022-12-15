@@ -12,5 +12,8 @@ You can't use Math.pow(), the goal is to recreate this function!
 */
 
 // TODO add your code here
+function pow(base, exponent) {
+  return base ** exponent;
+}
 
 module.exports = pow;

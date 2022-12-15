@@ -1,5 +1,7 @@
 const assert = require("assert");
 
+const Person = require("./person.js");
+
 assert.strictEqual(typeof Person, "function", "Person class is undefined");
 if (typeof Person === "function") {
   assert.strictEqual(new Person("John Doe", 30, false).name, "John Doe");
