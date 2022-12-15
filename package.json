@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:chessboard": "npx jest ./chessboard",
-    "test:soccer": "npx jest ./soccer"
+    "test:soccer": "npx jest ./soccer",
+    "test:math-pow": "npx jest ./math-pow"
   },
   "keywords": [],
   "author": "",

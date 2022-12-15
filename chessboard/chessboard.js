@@ -12,5 +12,70 @@ Your goal here will be to build a virtual chessboard which must look like this :
 ]
 */
 // TODO add your code here
+function chessboard() {
+  const letters = ["a", "b", "c", "d", "e", "f", "g", "h"];
+  //const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+  const chessboard = [];
+
+  for (let i = 0; i < letters.length; i++) {
+    const line = [];
+    for (let j = 0; j < letters.length; j++) {
+      const caser = `${letters[i]} - ${j + 1}`;
+      line.push(caser);
+    }
+    chessboard.push(line);
+  }
+
+  return chessboard;
+}
+
+// function chessboard2() {
+//   const letters = ["a", "b", "c", "d", "e", "f", "g", "h"];
+//   const chess = letters.map((letter) => {
+//     return [
+//       `${letter} - 1`,
+//       `${letter} - 2`,
+//       `${letter} - 3`,
+//       `${letter} - 4`,
+//       `${letter} - 5`,
+//       `${letter} - 6`,
+//       `${letter} - 7`,
+//       `${letter} - 8`,
+//     ];
+//   });
+//   return chess;
+// }
+
+// function chessboard() {
+//   const letters = ["a", "b", "c", "d", "e", "f", "g", "h"];
+//   const chess = letters.map((letter) => {
+//     const line = [];
+//     for (let i = 1; i <= 8; i++) {
+//       line.push(`${letter} - ${i}`);
+//     }
+//     return line;
+//   });
+//   return chess;
+// }
+
+function chessboard() {
+  const chessboard = [];
+
+  for (let i = 0; i < 8; i++) {
+    chessboard.push(String.fromCharCode(i + 97));
+  }
+
+  return chessboard.map((letter) => {
+    const line = [];
+
+    for (let i = 1; i <= 8; i++) {
+      line.push(`${letter} - ${i}`);
+    }
+
+    return line;
+  });
+}
+
+console.log(chessboard());
 
 module.exports = chessboard;
