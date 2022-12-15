@@ -6,7 +6,8 @@
   "scripts": {
     "test:chessboard": "npx jest ./chessboard",
     "test:soccer": "npx jest ./soccer",
-    "test:math-pow": "npx jest ./math-pow"
+    "test:math-pow": "npx jest ./math-pow",
+    "test:person": "npx jest ./person"
   },
   "keywords": [],
   "author": "",
