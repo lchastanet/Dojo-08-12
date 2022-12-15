@@ -1,4 +1,4 @@
-# Second Dojo WCS
+# Dojo Geekrew
 
 First you need to install dev dependencies :
 
@@ -12,4 +12,15 @@ then to test your code :
 npm run test:[name of the kata]
 ```
 
-Tips : to work properly, your function must have the same name as the export.
+#
+
+You should complete katas like this :
+
+1. chessboard
+2. soccer
+3. math-pow
+4. person
+
+#
+
+Tips : to work properly, your function/class must have the same name as the export.
