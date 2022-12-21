@@ -9,7 +9,8 @@
     "test:math-pow": "npx jest ./math-pow",
     "test:person": "npx jest ./person",
     "test:censorship": "npx jest ./censorship",
-    "test:uniq": "npx jest ./uniq"
+    "test:uniq": "npx jest ./uniq",
+    "test:string-compare": "npx jest ./string-compare"
   },
   "keywords": [],
   "author": "",

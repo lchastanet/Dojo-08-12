@@ -1,7 +1,7 @@
 const assert = require("assert");
 const uniq = require("./uniq.js");
 
-describe("Censorship", () => {
+describe("Uniq", () => {
   it("Your function exists", () => {
     assert.strictEqual(typeof uniq, "function");
   });
