@@ -20,6 +20,8 @@ You should complete katas like this :
 2. soccer
 3. math-pow
 4. person
+5. uniq
+6. censorship
 
 #
 
