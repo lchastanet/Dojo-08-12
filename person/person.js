@@ -8,4 +8,31 @@ Create a class `Person` which has :
 
 // TODO add your code here
 
+class Person {
+  constructor(name, age, weeaboo) {
+    this.name = name;
+    this.age = age;
+    this.weeaboo = weeaboo;
+  }
+  introduce = () => {
+    return `My name is ${this.name} and I am ${this.age}`;
+  };
+
+  greets = (name) => {
+    if (this.weeaboo === true) {
+      return `Ohayo ${name}-chan`;
+    } else {
+      return `Hello ${name}`;
+    }
+  };
+
+  match(Person) {
+    if (this.weeaboo === Person.weeaboo) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+
 module.exports = Person;
