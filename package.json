@@ -7,7 +7,9 @@
     "test:chessboard": "npx jest ./chessboard",
     "test:soccer": "npx jest ./soccer",
     "test:math-pow": "npx jest ./math-pow",
-    "test:person": "npx jest ./person"
+    "test:person": "npx jest ./person",
+    "test:censorship": "npx jest ./censorship",
+    "test:uniq": "npx jest ./uniq"
   },
   "keywords": [],
   "author": "",
