@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:chessboard": "npx jest ./chessboard",
-    "test:soccer": "npx jest ./soccer",
-    "test:math-pow": "npx jest ./math-pow",
-    "test:person": "npx jest ./person",
-    "test:censorship": "npx jest ./censorship",
-    "test:uniq": "npx jest ./uniq",
-    "test:string-compare": "npx jest ./string-compare"
+    "test:chessboard": "npx jest ./src/chessboard",
+    "test:soccer": "npx jest ./src/soccer",
+    "test:math-pow": "npx jest ./src/math-pow",
+    "test:person": "npx jest ./src/person",
+    "test:censorship": "npx jest ./src/censorship",
+    "test:uniq": "npx jest ./src/uniq",
+    "test:string-compare": "npx jest ./src/string-compare"
   },
   "keywords": [],
   "author": "",
