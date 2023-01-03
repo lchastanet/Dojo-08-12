@@ -10,7 +10,8 @@
     "test:person": "npx jest ./src/person",
     "test:censorship": "npx jest ./src/censorship",
     "test:uniq": "npx jest ./src/uniq",
-    "test:string-compare": "npx jest ./src/string-compare"
+    "test:string-compare": "npx jest ./src/string-compare",
+    "test:pascal-case": "npx jest ./src/pascal-case"
   },
   "keywords": [],
   "author": "",
