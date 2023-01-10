@@ -11,7 +11,9 @@
     "test:censorship": "npx jest ./src/censorship",
     "test:uniq": "npx jest ./src/uniq",
     "test:string-compare": "npx jest ./src/string-compare",
-    "test:pascal-case": "npx jest ./src/pascal-case"
+    "test:pascal-case": "npx jest ./src/pascal-case",
+    "test:duration": "npx jest ./src/duration",
+    "test:pyramid-builder": "npx jest ./src/pyramid-builder"
   },
   "keywords": [],
   "author": "",

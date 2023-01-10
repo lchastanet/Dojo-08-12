@@ -24,6 +24,8 @@ You should complete katas like this :
 6. censorship
 7. string-compare
 8. pascal-case
+9. duration
+10. pyramid-builder
 
 #
 
