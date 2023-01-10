@@ -9,6 +9,15 @@ Don't mutate the parameter.
 
 // TODO add your code here
 
-function pascalCase() {}
+function pascalCase(str) {
+  //if (str.length === 0) return str;
+
+  return str
+    .split(" ")
+    .map((element) => {
+      return element.charAt(0).toUpperCase() + element.slice(1).toLowerCase();
+    })
+    .join("");
+}
 
 module.exports = pascalCase;
