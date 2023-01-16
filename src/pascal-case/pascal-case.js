@@ -10,8 +10,6 @@ Don't mutate the parameter.
 // TODO add your code here
 
 function pascalCase(str) {
-  //if (str.length === 0) return str;
-
   return str
     .split(" ")
     .map((element) => {
