@@ -26,6 +26,8 @@ You should complete katas like this :
 8. pascal-case
 9. duration
 10. pyramid-builder
+11. morse-code
+12. runlength-encoding
 
 #
 

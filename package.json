@@ -13,7 +13,9 @@
     "test:string-compare": "npx jest ./src/string-compare",
     "test:pascal-case": "npx jest ./src/pascal-case",
     "test:duration": "npx jest ./src/duration",
-    "test:pyramid-builder": "npx jest ./src/pyramid-builder"
+    "test:pyramid-builder": "npx jest ./src/pyramid-builder",
+    "test:morse-code": "npx jest ./src/morse-code",
+    "test:runlength-encoding": "npx jest ./src/runlength-encoding"
   },
   "keywords": [],
   "author": "",
