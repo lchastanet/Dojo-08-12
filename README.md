@@ -26,8 +26,8 @@ You should complete katas like this :
 8. pascal-case
 9. duration
 10. pyramid-builder
-11. morse-code
-12. runlength-encoding
+11. runlength-encoding
+12. morse-code
 13. caesar-cipher
 14. recursive-fibonacci
 

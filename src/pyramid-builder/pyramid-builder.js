@@ -14,5 +14,24 @@ If `n` is null or not a number, throw a TypeError.
 */
 
 // TODO add your code here
+function build(n) {
+  let arr = [];
+
+  if (n === 0 || n < 0) {
+    throw RangeError("true");
+  }
+
+  if (typeof n !== "number") {
+    throw TypeError("true");
+  }
+
+  for (let i = 1; i <= n; i++) {
+    let str = " ".repeat(n - i);
+    let str2 = "*".repeat(i * 2 - 1);
+
+    arr.push(str + str2 + str);
+  }
+  return arr;
+}
 
 module.exports = build;
