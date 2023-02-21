@@ -38,13 +38,6 @@ morseMap.set("-.-.--", "!");
 
 // TODO add your code here
 
-function decode(msg) {
-  return msg
-    .split(" ")
-    .map((char, i, a) =>
-      char === "" && a[i - 1] === "" ? " " : morseMap.get(char)
-    )
-    .join("");
-}
+function decode(msg) {}
 
 module.exports = decode;
