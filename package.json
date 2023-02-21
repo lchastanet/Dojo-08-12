@@ -15,7 +15,9 @@
     "test:duration": "npx jest ./src/duration",
     "test:pyramid-builder": "npx jest ./src/pyramid-builder",
     "test:morse-code": "npx jest ./src/morse-code",
-    "test:runlength-encoding": "npx jest ./src/runlength-encoding"
+    "test:runlength-encoding": "npx jest ./src/runlength-encoding",
+    "test:caesar-cipher": "npx jest ./src/caesar-cipher",
+    "test:recursive-fibonacci": "npx jest ./src/recursive-fibonacci"
   },
   "keywords": [],
   "author": "",

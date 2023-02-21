@@ -28,6 +28,8 @@ You should complete katas like this :
 10. pyramid-builder
 11. morse-code
 12. runlength-encoding
+13. caesar-cipher
+14. recursive-fibonacci
 
 #
 
